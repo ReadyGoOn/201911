@@ -1,0 +1,23 @@
+跨域：非同源策略请求
+    同源策略请求 ajax / fetch 
+    非同源策略请求
+
+    异步无刷新操作 ajax
+    部署到同一个web服务器上： 同源策略，
+    xampp：修改本地host文件
+    127.0.0.1:1234 http://api.com.qq
+    http://137.0.0.1:1234/index.html
+    http://api.qq.com./getData
+
+服务器拆分
+web服务器：静态资源 kbs.sports.qq.com
+data服务器：业务逻辑和数据分析 api.sports.qq.com
+图片服务器：
+
+1.jsonp跨域解决方案的底层原理
+2.CORS跨域资源共享
+3.基于http proxy 实现的跨域请求
+4.基于 post message 实现跨域处理
+5.基于iframe 的跨域解决方案
+    window.name/document.domin/location.hash
+6.web scoket 和 Nginx 反向代理
