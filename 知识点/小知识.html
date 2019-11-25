@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container{
+            /* display: flex;
+            justify-content: space-around; */
+
+            /* overflow: hidden; */
+            position: relative;
+        }
+        .left, .right{
+            /* flex-shrink: 0; */
+            width: 200px;
+            background-color: #0ff;
+
+        }
+        .right{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .middle{
+            /* flex-grow: 1; */
+            padding:0 220px;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">parseInt(str, radix);
+                str:需要解析的字符串，
+                radix:解析基数（进制），改值介于2~36，
+                    如果为0，或者省略，表示以10进制进行解析，
+                    如果以‘0x’,'0X',表示16进制，
+                    如果小于2，或者大于36，parseInt()返回NaN,
+        </div>
+        <div class="middle">
+                parseInt(str, radix);
+                str:需要解析的字符串，
+                radix:解析基数（进制），改值介于2~36，
+                    如果为0，或者省略，表示以10进制进行解析，
+                    如果以‘0x’,'0X',表示16进制，
+                    如果小于2，或者大于36，parseInt()返回NaN,
+        </div>
+        <div class="right">parseInt(str, radix);
+                str:需要解析的字符串，
+                radix:解析基数（进制），改值介于2~36，
+                    如果为0，或者省略，表示以10进制进行解析，
+                    如果以‘0x’,'0X',表示16进制，
+                    如果小于2，或者大于36，parseInt()返回NaN,
+        </div>
+    </div>
+    
+
+</body>
+</html>
